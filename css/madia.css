@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+  .header {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+  .header-container {
+    flex-direction: row-reverse;
+  }
+  .header-hamburder-menu {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .nav {
+    display: none;
+  }
+  .header-none {
+    display: block;
+  }
+  .hero {
+    padding-top: 14px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .hero-title {
+    font-size: 20px;
+    line-height: normal;
+    margin-bottom: 13px;
+  }
+  .hero-text {
+    font-size: 13px;
+    line-height: normal;
+    margin-bottom: 41px;
+  }
+  .hero-link {
+    line-height: normal;
+    font-size: 13px;
+  }
+  .about {
+    padding-top: 25px;
+    padding-bottom: 50px;
+  }
+  .about-title {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 19px;
+  }
+  .about-text {
+    text-align: justify;
+    font-size: 12px;
+    line-height: normal;
+  }
+}

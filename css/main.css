@@ -62,6 +62,17 @@ body {
   text-decoration: none;
 }
 
+.header-hamburder-menu{
+  background-color: transparent;
+  border: none;
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.header-none{
+  display: none;
+}
+
 /* hero start */
 
 .hero {
@@ -84,7 +95,7 @@ body {
 .hero-text {
   color: var(--White);
   font-size: 24px;
-  padding-bottom: 106px;
+  margin-bottom: 106px;
 }
 .hero-link {
   color: var(--White);
